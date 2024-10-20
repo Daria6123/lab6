@@ -14,4 +14,10 @@ int main()
 		cout << setw(10) << x << setw(15) << y << endl;
 		x += h;
 	}
+	do {
+		y = tan(pow(x, 3)) + 2 * sin(x) - 3;
+		cout << setw(10) << x << setw(15) << y << endl;
+		x += h;
+	} while (x <= x2 + h / 2);
+
 }
