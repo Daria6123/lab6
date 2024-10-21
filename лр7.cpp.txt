@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     SetConsoleOutputCP(1251);
-    double a, b, c, x, f;
+    /*double a, b, c, x, f;
     cout << "Enter a, b, c, x:";
     cin >> a >> b >> c >> x;
     if (x < 6 && b + c != 0 && c!=0) {
@@ -18,5 +18,37 @@ int main()
     else {
         f = (x) / (-c + 2);
         cout << "F =" << f;
+    }*/
+    int x;
+    cout << "Введіть номер літери:";
+    cin >> x;
+    switch (x) {
+    case 1: cout << "Літера - A-a" << endl; cout << "Голосна"; break;
+    case 2: cout << "Літера - B-b" << endl; cout << "Приголосна"; break;
+    case 3: cout << "Літера - C-c" << endl; cout << "Приголосна"; break;
+    case 4: cout << "Літера - D-d" << endl; cout << "Приголосна"; break;
+    case 5: cout << "Літера - E-e" << endl; cout << "Голосна"; break;
+    case 6: cout << "Літера - F-f" << endl; cout << "Приголосна"; break;
+    case 7: cout << "Літера - G-g" << endl; cout << "Приголосна"; break;
+    case 8: cout << "Літера - H-h" << endl; cout << "Приголосна"; break;
+    case 9: cout << "Літера - I-i" << endl; cout << "Голосна"; break;
+    case 10: cout << "Літера - J-j" << endl; cout << "Приголосна"; break;
+    case 11: cout << "Літера - K-k" << endl; cout << "Приголосна"; break;
+    case 12: cout << "Літера - L-l" << endl; cout << "Приголосна"; break;
+    case 13: cout << "Літера - M-m" << endl; cout << "Приголосна"; break;
+    case 14: cout << "Літера - N-n" << endl; cout << "Приголосна"; break;
+    case 15: cout << "Літера - O-o" << endl; cout << "Голосна"; break;
+    case 16: cout << "Літера - P-p" << endl; cout << "Приголосна"; break;
+    case 17: cout << "Літера - Q-q" << endl; cout << "Приголосна"; break;
+    case 18: cout << "Літера - R-r" << endl; cout << "Приголосна"; break;
+    case 19: cout << "Літера - S-s" << endl; cout << "Приголосна"; break;
+    case 20: cout << "Літера - T-t" << endl; cout << "Приголосна"; break;
+    case 21: cout << "Літера - U-u" << endl; cout << "Голосна"; break;
+    case 22: cout << "Літера - V-v" << endl; cout << "Приголосна"; break;
+    case 23: cout << "Літера - W-w" << endl; cout << "Приголосна"; break;
+    case 24: cout << "Літера - X-x" << endl; cout << "Приголосна"; break;
+    case 25: cout << "Літера - Y-y" << endl; cout << "Голосна"; break;
+    case 26: cout << "Літера - Z-z" << endl; cout << "Приголосна"; break;
     }
+
 }
